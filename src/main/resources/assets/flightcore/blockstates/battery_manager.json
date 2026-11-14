@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "flightcore:block/battery_manager"
+    }
+  }
+}

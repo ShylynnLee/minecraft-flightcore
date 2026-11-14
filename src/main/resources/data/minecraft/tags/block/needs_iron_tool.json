@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "flightcore:fe_generator",
+    "flightcore:fe_charger",
+    "flightcore:battery_module",
+    "flightcore:battery_manager",
+    "flightcore:rubber_maker",
+    "flightcore:plastic_maker"
+  ]
+}

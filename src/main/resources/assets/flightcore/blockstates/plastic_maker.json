@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "flightcore:block/plastic_maker"
+    }
+  }
+}

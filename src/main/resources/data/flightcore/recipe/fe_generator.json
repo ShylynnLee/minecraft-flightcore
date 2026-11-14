@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "IRI", "RFR", "IRI" ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "F": { "item": "minecraft:furnace" }
+  },
+  "result": { "id": "flightcore:fe_generator", "count": 1 }
+}

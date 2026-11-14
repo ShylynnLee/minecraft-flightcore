@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flightcore:battery_module"
+    },
+    {
+      "item": "minecraft:comparator"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "flightcore:mechanical_core"
+    }
+  ],
+  "result": {
+    "id": "flightcore:battery_manager",
+    "count": 1
+  }
+}

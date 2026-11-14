@@ -1,0 +1,48 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "flightcore"
+version = "1.4.0"
+displayName = "Flight Core"
+description = '''一件饰品：穿戴后获得飞行能力，飞行期间持续消耗 FE 能量。
+An accessory that grants flight while draining FE energy.'''
+
+[[dependencies.flightcore]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.248,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flightcore]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flightcore]]
+modId = "curios"
+type = "required"
+versionRange = "[9.5.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flightcore]]
+modId = "jade"
+type = "optional"
+versionRange = "[15.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flightcore]]
+modId = "jei"
+type = "optional"
+versionRange = "[19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "flightcore.mixins.json"

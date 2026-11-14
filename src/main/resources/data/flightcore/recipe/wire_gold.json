@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "MRM",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "R": {
+      "item": "flightcore:rubber"
+    }
+  },
+  "result": {
+    "id": "flightcore:wire_gold",
+    "count": 8
+  }
+}

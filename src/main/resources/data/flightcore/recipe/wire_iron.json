@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "MRM",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "flightcore:rubber"
+    }
+  },
+  "result": {
+    "id": "flightcore:wire_iron",
+    "count": 8
+  }
+}

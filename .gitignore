@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# 第三方依赖 jar（Curios / Jade / JEI），请自行放入 libs/
+libs/
+*.log
+
+# 运行目录
+run/

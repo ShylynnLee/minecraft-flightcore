@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "GLG",
+    "LML",
+    "GLG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "M": {
+      "item": "flightcore:mechanical_core"
+    }
+  },
+  "result": {
+    "id": "flightcore:flight_core",
+    "count": 1
+  }
+}

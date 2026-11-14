@@ -1,0 +1,33 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = project.mod_version
+group = project.mod_group_id
+
+base { archivesName = project.mod_id }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+    }
+    mods {
+        "${project.mod_id}" { sourceSet(sourceSets.main) }
+    }
+}
+
+dependencies {
+    // Curios API（1.21.1 的 NeoForge mod 是 mojmap，可直接编译；运行期由服务器提供）
+    compileOnly files("libs/curios-neoforge-9.5.1+1.21.1.jar")
+    // Jade(玉) API —— 仅编译期；运行期由服务器/客户端提供（可选依赖）
+    compileOnly files("libs/Jade-1.21.1-NeoForge-15.10.6-api.jar")
+    // JEI API —— 仅编译期；运行期由客户端提供（可选依赖）
+    compileOnly files("libs/jei-1.21.1-neoforge-19.57.0.451-api.jar")
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

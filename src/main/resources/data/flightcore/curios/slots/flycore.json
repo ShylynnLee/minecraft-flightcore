@@ -1,0 +1,6 @@
+{
+  "size": 1,
+  "order": 90,
+  "icon": "flightcore:slot/empty_flycore_slot",
+  "validators": ["curios:tag"]
+}
